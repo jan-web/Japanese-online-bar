@@ -75,13 +75,13 @@ export default class RibbonMenu {
 			`
       <div class="ribbon">
       <button class="ribbon__arrow ribbon__arrow_left">
-        <img src="/assets/images/icons/angle-icon.svg" alt="icon">
+        <img src="./assets/images/icons/angle-icon.svg" alt="icon">
       </button>
       <nav class="ribbon__inner">
       ${this._getLinks()}
       </nav>
       <button class="ribbon__arrow ribbon__arrow_right ribbon__arrow_visible">
-        <img src="/assets/images/icons/angle-icon.svg" alt="icon">
+        <img src="./assets/images/icons/angle-icon.svg" alt="icon">
       </button>
     </div>
       `
